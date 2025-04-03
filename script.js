@@ -204,7 +204,7 @@ document.getElementById("start-btn").addEventListener("click", () => {
 let normalLevel = 1;
 let darkLevel = 1;
 let timerInterval;
-let timeRemaining = 75;
+let timeRemaining = 60;
 let timerStarted = false;
 let inDarkMode = false;
 
