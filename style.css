@@ -1,0 +1,124 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#music-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#music-toggle:hover {
+  background-color: #005fa3;
+}
+
+
+h1, h2, p {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: #333;
+}
+
+#main-menu, #game-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid #0077cc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+#puzzle-container {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-template-rows: repeat(4, 60px);
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0077cc;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tile.empty {
+  background-color: #d3d3d3;
+  cursor: default;
+}
+
+.tile:hover {
+  background-color: #005fa3;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 600px;
+}
+
+#timer, #hint-btn, #night-mode-btn {
+  font-size: 18px;
+  margin: 5px;
+}
+
+/* challenge Mode Styling */
+#timer {
+  display: none; /* Hidden by default, shown only in Challenge Mode */
+}
+
+body.dark-theme {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+body.dark-theme .tile {
+  background-color: #333;
+}
+
+body.dark-theme .tile.empty {
+  background-color: #555;
+}

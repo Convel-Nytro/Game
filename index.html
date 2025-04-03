@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convel's Block Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="main-menu">
+        <h1>Convel's Block Puzzle</h1>
+        <button id="start-btn">Start Game</button>
+        <button id="about-btn" onclick="window.location.href='about.html'">About(Please read it before playing the Game)</button>
+
+    </div>
+
+    <div id="game-screen" style="display: none;">
+        <h2 id="level-display">Level 1</h2>
+        <div id="puzzle-container"></div>
+        <div id="controls">
+            <span id="timer">Time: 0s</span>
+            <button id="retry-btn">Retry</button>
+          <button id="normal-mode-btn">Normal Mode</button>
+<button id="dark-mode-btn">Dark Mode</button>
+
+            <button id="main-menu-btn">Main Menu</button>
+
+            <!-- Background Music -->
+<audio id="bg-music" loop>
+    <source src="simple-acoustic-folk-138360.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<!-- Music Toggle Button -->
+<button id="music-toggle">🔊 Music On</button>
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
