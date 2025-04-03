@@ -235,7 +235,7 @@ function toggleModeUI() {
 // Reset Timer for Dark Mode
 function resetTimer() {
   clearInterval(timerInterval);
-  timeRemaining = 75;
+  timeRemaining = 60;
   updateTimerDisplay();
 }
 
