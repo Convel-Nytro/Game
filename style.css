@@ -26,6 +26,29 @@ body {
   background-color: #005fa3;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.about-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+}
 
 h1, h2, p {
   text-align: center;
@@ -107,7 +130,7 @@ button:hover {
 
 /* challenge Mode Styling */
 #timer {
-  display: none; /* Hidden by default, shown only in Challenge Mode */
+  display: block; /* Hidden by default, shown only in Challenge Mode */
 }
 
 body.dark-theme {
