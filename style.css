@@ -130,7 +130,7 @@ button:hover {
 
 /* challenge Mode Styling */
 #timer {
-  display: block; /* Hidden by default, shown only in Challenge Mode */
+  display: none; /* Hidden by default, shown only in Challenge Mode */
 }
 
 body.dark-theme {
