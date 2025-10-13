@@ -106,11 +106,6 @@ button:hover {
   color: #1a1a1a;
 }
 
-/* challenge Mode Styling */
-#timer {
-  visibility: visible
-}
-
 body.dark-theme {
   background-color: #1a1a1a;
   color: #ffffff;
@@ -123,5 +118,6 @@ body.dark-theme .tile {
 body.dark-theme .tile.empty {
   background-color: #555;
 }
+
 
 
