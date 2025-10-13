@@ -108,7 +108,7 @@ button:hover {
 
 /* challenge Mode Styling */
 #timer {
-  display: none; /* Hidden by default, shown only in Challenge Mode */
+  visibility: visible
 }
 
 body.dark-theme {
@@ -123,4 +123,5 @@ body.dark-theme .tile {
 body.dark-theme .tile.empty {
   background-color: #555;
 }
+
 
