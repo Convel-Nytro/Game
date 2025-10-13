@@ -26,29 +26,6 @@ body {
   background-color: #005fa3;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-}
-
-.about-container {
-  max-width: 90%;
-  width: 500px;
-  margin: auto;
-  padding: 20px;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-h1 {
-  text-align: center;
-}
 
 h1, h2, p {
   text-align: center;
