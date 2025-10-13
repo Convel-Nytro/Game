@@ -126,6 +126,7 @@ button:hover {
 #timer, #hint-btn, #night-mode-btn {
   font-size: 18px;
   margin: 5px;
+  color: #1a1a1a;
 }
 
 /* challenge Mode Styling */
@@ -145,3 +146,4 @@ body.dark-theme .tile {
 body.dark-theme .tile.empty {
   background-color: #555;
 }
+
